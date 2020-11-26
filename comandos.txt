@@ -16,3 +16,26 @@ echo LINEA DE MAS >>alfa\prueba.txt
 type alfa\prueba.txt
 doskey /history
 doskey /history >comandos.txt
+git init
+git add .
+git commit - "first commit"
+git status
+git commit -m "first commit"
+git remote add origin
+https://github.com/unaialberdi22/ev1.git
+git remote add origin https://github.com/unaialberdi22/ev1.git
+git push -u origin master
+cd beta
+echo beta\prueba2.txt
+echo ARCHIVO 2 beta\prueba2.txt
+cd ..
+echo ARCHIVO 2 beta\prueba2.txt
+echo ARCHIVO 2 >beta\prueba2.txt
+type beta\prueba2.txt
+git pull
+cd ..
+git clone https://github.com/unaialberdi22/ev1.git
+https://github.com/unaialberdi22/ev1.git ev1copy
+git clone https://github.com/unaialberdi22/ev1.git ev1copy
+cd ev1copy
+doskey /history >comandos.txt
