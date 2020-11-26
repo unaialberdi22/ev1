@@ -1,0 +1,18 @@
+mkdir ev1
+cd ev1
+mkdir alfa
+echo EXAMEN ENTORNOS alfa >alfa/prueba.txt
+type alfa\prueba.txt beta
+type alfa/prueba.txt beta
+type alfa\prueba.txt beta
+echo EXAMEN ENTORNOS >alfa/prueba.txt
+type alfa/prueba.txt beta
+type alfa\prueba.txt beta
+type alfa\prueba.txt
+mkdir beta
+copy alfa\prueba.txt beta
+dir beta
+echo LINEA DE MAS >>alfa\prueba.txt
+type alfa\prueba.txt
+doskey /history
+doskey /history >comandos.txt
